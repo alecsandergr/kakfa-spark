@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "teste"
+version = "0.1.0"
+description = ""
+authors = ["Alecsander Guimaraes <leelecko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+confluent-kafka = "^2.3.0"
+kafka-python = "^2.0.2"
+pyspark = "^3.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
